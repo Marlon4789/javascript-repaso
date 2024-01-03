@@ -1,0 +1,11 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(7, 29, 36);
+    color: rgb(218, 220, 220);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
