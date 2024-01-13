@@ -90,14 +90,14 @@ img2.width = 320;
 // Crear un contenedor div
 const container = document.createElement('div');
 
-// Aplicar estilos flexbox al contenedor para mostrar las imágenes en columnas
+// Aplicar estilos flexbox al contenedor para mostrar las imágenes en columnas.
 container.style.display = 'flex';
-container.style.flexDirection = 'column'; // Esto establece la dirección principal como columna
+container.style.flexDirection = 'column'; // Esto establece la dirección principal como columna.
 
 // Agregar las imágenes al contenedor
 container.appendChild(img1);
 container.appendChild(img2);
 
-// Agregar el contenedor al cuerpo del documento (body)
+// Agregar el contenedor al cuerpo del documento(body)
 document.body.appendChild(container);
 
